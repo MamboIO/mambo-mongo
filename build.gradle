@@ -11,13 +11,14 @@ plugins {
     id 'com.github.johnrengelman.shadow' version 'latest.release'
     id 'org.sonarqube' version 'latest.release'
     id 'jacoco-report-aggregation'
+    id 'maven-publish'
 }
 
 allprojects {
     apply plugin: 'java-library'
     apply plugin: 'jacoco'
 
-    version = '1.44.0-SNAPSHOT'
+    version = '1.44.0-mambo1'
 
     group = 'de.bwaldvogel'
 
